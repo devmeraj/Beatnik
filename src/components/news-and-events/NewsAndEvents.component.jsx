@@ -54,13 +54,13 @@ const NewsAndEvents = () => {
     return (
         <>
         <Grid textAlign="center" className="news-and-events">
-            <Grid.Column width={10}>
+            <Grid.Column tablet={16} computer={10}>
             <div className="sub-info">
             <Header className="products-header" as="h2">News &amp; <span>Events</span></Header>
             
             </div>
             </Grid.Column>
-            <Grid.Column width={7}>
+            <Grid.Column computer={7} tablet={16}>
                 <Articles posts={posts} />
             </Grid.Column>
             <Grid.Column width={3}>

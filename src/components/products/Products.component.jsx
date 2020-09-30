@@ -53,7 +53,7 @@ const Products = () => {
                     <Grid.Column style={{padding: 0}} stretched tablet={16} computer={12}>
                     
                         <Grid container columns={2} verticalAlign="middle">
-                            <Grid.Column textAlign="left" className="middle-content">
+                            <Grid.Column textAlign="left" computer={8} tablet={16} className="middle-content">
                                 <Header as="h3">Sanchay</Header>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum debitis in eum corrupti aperiam dolorib</p>
@@ -70,7 +70,7 @@ const Products = () => {
                                 </div>
                             </Grid.Column>
                             
-                            <Grid.Column style={{padding: 0}}>
+                            <Grid.Column style={{padding: 0}} computer={8} tablet={16}>
                                 <Image src={productSection} fluid />
                             </Grid.Column>
                             

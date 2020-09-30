@@ -18,4 +18,9 @@
     right: -28px;
     top: 80%;
     
+    @media(max-width: 768px) {
+        &{
+            right: 0;
+        }
+    }
 }
