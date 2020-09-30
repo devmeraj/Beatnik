@@ -5,7 +5,7 @@ import './InsuranceItem.styles.scss';
 const InsuranceItem = ({insurance}) => {
     const {title, description} = insurance;
     return (
-            <Grid.Column className="insurance-item">
+            <Grid.Column style={{marginBottom: "20px"}} tablet={9} computer={4} className="insurance-item">
                 <Card>
                     <Card.Content header={title} as="h2" />
                     <Card.Content description={description} />
