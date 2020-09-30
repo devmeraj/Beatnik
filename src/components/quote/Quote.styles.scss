@@ -1,0 +1,45 @@
+.offer {
+    padding: 50px 0;
+    position: relative;
+
+    .quote-content {
+        position: absolute;
+        top: 10%;
+        margin-left: 20%;
+    }
+
+    @media(max-width: 768px){
+        .quote-content{
+            margin-left: 30px;
+
+            h2 {
+                font-size: 24px;
+            }
+        }
+
+    }
+
+     p {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 18px;
+
+        &.terms {
+            font-size: 10px;
+        }
+    }
+
+
+    h2 {
+        font-size: 42px;
+        color: #fcd200;
+        margin-top:0;
+    }
+}
+
+.quote-right {
+    position: relative;
+
+
+}

@@ -1,0 +1,36 @@
+.quote{
+    h3 {
+    position: absolute;
+    left: -10%;
+    top: 0;
+
+    @media(max-width: 960px) {
+        &{
+            left: 10%;
+        }
+    }
+}
+}
+.quote-form {
+    width: 55%;
+    position: absolute;
+    top: 20%;
+    left: 2%;
+
+    @media(max-width: 960px) {
+        &{
+            left: 10%;
+            width: 80%
+        }
+    }
+    
+    .ui.selection.dropdown, .ui.form input {
+        border-radius: 20px !important;
+        box-shadow: 0 5px 4px rgba(0, 0, 0, .3);
+
+    }
+
+    .ui.dropdown>.text, .ui.form input::placeholder {
+        color: #000 !important;
+    }
+}

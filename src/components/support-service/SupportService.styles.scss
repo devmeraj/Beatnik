@@ -1,0 +1,41 @@
+.support-service {
+    
+    width: 100%;
+    &.ui.segment{
+        background: rgb(59,165,175);
+background: linear-gradient(90deg, rgba(59,165,175,1) 0%, rgba(52,183,187,1) 46%, rgba(46,198,197,1) 100%);
+    }
+
+    .service-box-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .service-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+
+            span {
+                color: #fff;
+                margin-top: 20px;
+                margin-bottom: 40px;
+            }
+
+
+        }
+    }
+
+
+
+    .header{
+        color: #fff;
+        margin-bottom: 20px !important;
+    }
+
+    .button {
+        color: #fff;
+        border-radius: 20px;
+    }
+}

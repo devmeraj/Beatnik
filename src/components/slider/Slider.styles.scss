@@ -1,0 +1,47 @@
+.rec-slider-container {
+    margin: 0 !important;
+
+}
+
+.rec-arrow-left {
+    position: absolute;
+    left: 0;
+    z-index: 9999;
+}
+.rec-arrow-right {
+    position: absolute;
+    right: 0;
+    z-index: 9999;
+}
+
+.carousel-content {
+    padding: 50px 80px;
+    margin-top: 150px;
+    
+
+    .title {
+        color: #0404ab;
+        font-size: 42px;
+    }
+
+
+    @media(max-width: 768px) {
+        &{
+            margin-top: 120px;
+            padding: 20px;
+
+            .title {
+                font-size: 24px;
+            }
+
+
+        }
+
+    }
+    
+    
+}
+
+.single-slide {
+    background-size: cover;
+}

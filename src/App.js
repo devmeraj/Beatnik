@@ -1,24 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+
+import Header from './components/header/Header.component';
+import Search from './components/search/Search.component';
+import Services from './components/services/Services.component';
+import Products from './components/products/Products.component';
+import Insurance from './components/insurance/Insurance.component';
+import Quote from './components/quote/Quote.component';
+import Support from './components/support/Support.component'; 
+import NewsAndEvents from './components/news-and-events/NewsAndEvents.component';
+import Awards from './components/awards/Awards.component';
+import Footer from './components/footer/Footer.component';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Search />
+      <Services />
+      <Products />
+      <Insurance />
+      <Quote />
+      <Support />
+      <NewsAndEvents />
+      <Awards />
+      <Footer />
     </div>
   );
 }

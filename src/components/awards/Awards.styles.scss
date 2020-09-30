@@ -1,0 +1,23 @@
+.awards-container {
+    background-color: #f8fefe;
+
+}
+
+.awards {
+    position: relative;
+    margin-top: 50px;
+    
+    .ui.segment {
+        padding: 20px !important;
+    }
+}
+.award-icon {
+    background: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    top: -40px;
+    left: 39%;
+    position: absolute;
+    width: 80px;
+    border-top: 1px solid #f8fefe;
+}

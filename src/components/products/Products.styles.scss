@@ -1,0 +1,115 @@
+.products {
+
+    p {font-weight: 300 !important;}
+
+    background: #f3f3f3;
+    padding: 100px 0;
+    margin: 50px 0;
+
+    .sub-info {
+        margin-bottom: 50px;
+    }
+    
+
+    .products-header {
+        font-weight: 400;
+        font-size: 32px !important;
+        span {
+            font-weight: 700;
+        }
+    }
+    .middle-content {
+        display: flex;
+        flex-direction: column;
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+        overflow: hidden;
+        
+
+        p {
+            font-weight: 300;
+            line-height: 20px;
+        }
+
+        .details {
+            float: right;
+            color: #000;
+            
+        }
+
+    }
+
+    .bottom {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .footer {
+        display: flex;
+        align-items: center;;
+        justify-content: space-between;
+        margin-top: 80px;
+
+        a {
+            color: #000;
+        }
+
+        button {
+            border-radius: 20px;
+        }
+
+
+        
+    }
+
+    img {
+        border-radius: 20px;
+    }
+}
+.product-menu {
+    background: #2c302e !important;
+    padding: 100px 0 50px 50px;
+    border-radius: 10px !important;
+    &.ui.menu .item {
+        color: #fff;
+
+        .active, :focus, :hover {
+            background: #2d302e !important;
+            color: #2c302e;
+        }
+    }
+
+}
+
+
+.ui.vertical.tabular.menu .item{
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+
+.ui.vertical.tabular.menu .active.item{
+    background: #2d302e;
+    color: #fff;
+    border: none;
+    margin-bottom: 30px;
+    // border-right: 4px solid #ffeb9f;
+    position: relative;
+
+}
+
+.ui.vertical.tabular.menu .item:hover{
+    color: #fff;
+    // border-right: 4px solid #ffeb9f;
+    color: orange
+
+
+}
+
+.ui.vertical.tabular.menu .active.item:after {
+    content: url(../../assets/after.png);
+    position: absolute;
+    right: -5px;
+    top: 0;
+}
