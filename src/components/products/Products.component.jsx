@@ -25,7 +25,7 @@ const Products = () => {
             
                 <Grid.Row style={{background:"#fff", padding: 0}}>
                     
-                <Grid.Column style={{padding: 0}} textAlign="left" width={4}>
+                <Grid.Column style={{padding: 0}} textAlign="left" tablet={16} computer={4}>
                     <Menu className="product-menu" fluid vertical tabular>
                         <Menu.Item
                         name='savings'
@@ -50,7 +50,7 @@ const Products = () => {
                     </Menu>
                     </Grid.Column>
 
-                    <Grid.Column style={{padding: 0}} stretched width={12}>
+                    <Grid.Column style={{padding: 0}} stretched tablet={16} computer={12}>
                     
                         <Grid container columns={2} verticalAlign="middle">
                             <Grid.Column textAlign="left" className="middle-content">

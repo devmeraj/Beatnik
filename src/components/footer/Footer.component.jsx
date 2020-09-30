@@ -6,11 +6,13 @@ import logo from '../../assets/beatnik.png';
 const Footer = () => {
     return (
         <>
+        
         <div id="footer">
-        <Grid textAlign="center" container>
+            
+        <Grid textAlign="center" container style={{margin : "-14px"}}>
             <Grid.Column tablet={12} computer={3} textAlign="left">
                 <Image src={logo} style={{marginBottom: "80px"}} />
-
+                
                 <div className="tel" style={{marginBottom: "15px"}}>
                     <Header as="h4"><Icon name="call" color="orange" />1351</Header>
                 </div>
@@ -59,11 +61,12 @@ const Footer = () => {
             </List>
             </Grid.Column>
         </Grid>
+        
 
         </div>
-        
-        
+        <a href="/" className="feedback">Feedback</a>
         </>
+        
     );
 }
 

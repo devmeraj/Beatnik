@@ -12,6 +12,7 @@ import Support from './components/support/Support.component';
 import NewsAndEvents from './components/news-and-events/NewsAndEvents.component';
 import Awards from './components/awards/Awards.component';
 import Footer from './components/footer/Footer.component';
+import FooterCopyright from './components/footer-copyright/FooterCopyright.component';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <NewsAndEvents />
       <Awards />
       <Footer />
+      <FooterCopyright />
     </div>
   );
 }
