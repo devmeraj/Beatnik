@@ -8,7 +8,7 @@ import awardIcon from '../../assets/awardIcon.png';
 const awards = [
     {id: '1', title: 'ICT Award 2010 - Best in UI', imageURL: require('../../assets/award.png')},
     {id: '2', title: 'ICT Award 2009 - Best in Web0', imageURL: require('../../assets/award.png')},
-    {id: '1', title: 'ICT Award 2010 - Best in App award', imageURL: require('../../assets/award.png')}
+    {id: '3', title: 'ICT Award 2010 - Best in App award', imageURL: require('../../assets/award.png')}
 ];
 
 const displayAwards = () => {
@@ -16,7 +16,7 @@ const displayAwards = () => {
         return (
 
             
-            <Grid.Column tablet={12} computer={4} className="awards">
+            <Grid.Column key={award.id} tablet={12} computer={4} className="awards">
                 <Segment>
                     <span className="award-icon">
                         <Image src={awardIcon} size="tiny" />

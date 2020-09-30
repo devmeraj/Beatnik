@@ -1,5 +1,5 @@
 import React from 'react';
-import { Segment, Header, Image, Button, Card } from 'semantic-ui-react'
+import { Segment, Header, Image, Button } from 'semantic-ui-react'
 
 import avatar from '../../assets/avatar.png'
 

@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import {Grid, Menu, Segment, Image, Icon, Header, Button} from 'semantic-ui-react';
-import HeaderSubHeader from 'semantic-ui-react/dist/commonjs/elements/Header/HeaderSubheader';
+import {Grid, Menu, Image, Header, Button} from 'semantic-ui-react';
+
 import productSection from '../../assets/products-section.png';
 
 import "./Products.styles.scss";
@@ -57,9 +57,9 @@ const Products = () => {
                                 <Header as="h3">Sanchay</Header>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum debitis in eum corrupti aperiam dolorib</p>
-                                <p><a href="#" className="details">Details &gt;</a></p>
+                                <p><a href="/" className="details">Details &gt;</a></p>
                                 <div className="footer">
-                                    <a href="#">Calculate Premium</a>
+                                    <a href="/">Calculate Premium</a>
                                     <Button size="large" style={{background: '#f7941e'}} inverted>Book an appointment</Button>
                                 </div>
 

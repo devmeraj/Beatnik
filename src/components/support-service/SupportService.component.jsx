@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Icon, Segment, Header, Button, Image} from 'semantic-ui-react';
+import { Icon, Segment, Header, Button } from 'semantic-ui-react';
 
 import "./SupportService.styles.scss";
 
@@ -8,8 +8,8 @@ const SupportService = () => {
         <Segment className="support-service">
             
             <Header as="h2">What would you like to do today</Header>
-            {/* <Image src={avatar} style={{margin: "0 auto 20px"}} size="tiny"/> */}
-            <div class="service-box-container">
+            
+            <div className="service-box-container">
                 <div className="service-box">
                     <Icon name="clipboard list" inverted size="huge"/>
                     

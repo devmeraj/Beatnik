@@ -7,12 +7,12 @@ import './Support.styles.scss';
 const Support = () => {
     return (
         <div className="support">
-            <Grid textAlign="center" verticalAlign="center">
+            <Grid textAlign="center" verticalAlign="middle">
                 <Grid.Column tablet={12} computer={4}>
                     <SupportInsurance />
                 </Grid.Column>
 
-                <Grid.Column tablet={12} computer={8}>
+                <Grid.Column tablet ={12} computer={8}>
                     <SupportService />
                 </Grid.Column>
                 

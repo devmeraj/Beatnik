@@ -9,7 +9,7 @@ const displayPosts = (articles) => {
     
     return articles.filter(((article, index) => index < 2))
     .map(article => {
-        return <ArticleItem article={article} />
+        return <ArticleItem key={article.id} article={article} />
     })
 }
 

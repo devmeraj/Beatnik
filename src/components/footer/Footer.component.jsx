@@ -31,7 +31,7 @@ const Footer = () => {
                 <List.Item>Oranges</List.Item>
             </List>
             </Grid.Column>
-            <Grid.Column tablet={12} computer={3}>
+            <Grid.Column tablet={12} computer={3} textAlign="left">
             <List>
                 <List.Item style={{color: "orange"}}>Apples</List.Item>
                 <List.Item>Pears</List.Item>

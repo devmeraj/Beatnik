@@ -1,6 +1,6 @@
 import React from 'react';
 import Carousel from 'react-elastic-carousel';
-import {Grid, Header} from 'semantic-ui-react';
+import {Grid} from 'semantic-ui-react';
 
 import ProtectionPlan from '../protection-plans/ProtectionPlans.component';
 import slide from '../../assets/slide.png';
